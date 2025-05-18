@@ -4,9 +4,9 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 
-st.set_page_config(page_title="تحويل صورة إلى دايموند", layout="centered")
+st.set_page_config(page_title="Change your picture into Daimonds", layout="centered")
 
-st.title("🎨 حول صورتك إلى نمط دايموند Branding")
+st.title("🎨 Change your picture into Daimonds")
 
 uploaded_file = st.file_uploader("ارفع صورة JPG أو PNG", type=["jpg", "png", "jpeg"])
 
